@@ -1,1 +1,11 @@
 This is my personal portfolio. I am Casey Walker.
+
+To build, both MkDocs and MkDocs Material are needed.
+
+If using `pipx` for installing Python programs:
+  # pipx install mkdocs
+  # pipx inject mkdocs mkdocs-material
+
+Links:
+  - MkDocs: https://github.com/mkdocs/mkdocs
+  - MkDocs material: https://github.com/squidfunk/mkdocs-material
