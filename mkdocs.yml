@@ -15,6 +15,14 @@ repo_url: hittps://github.com/kcmw3e/kcmw3e.github.io
 
 theme:
   name: material
+  features:
+    # Link to some setup documentation for these features:
+    #   https://mrkeo.github.io/setup/setting-up-navigation/
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
   palette:
     # Light and dark theme with toggle, based on the MkDocs Material
     # documentation:
@@ -29,3 +37,9 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+
+markdown_extensions:
+  - toc:
+      # Link to some setup documentation for the table of contents:
+      #   https://mrkeo.github.io/setup/setting-up-navigation/#table-of-contents
+      permalink: true
