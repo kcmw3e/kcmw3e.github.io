@@ -13,11 +13,12 @@ site_description: >-
 repo_name: kcmw3e/kcmw3e.github.io
 repo_url: hittps://github.com/kcmw3e/kcmw3e.github.io
 
-# Light and dark theme with toggle, based on the MkDocs Material documentation
-#   https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
 theme:
   name: material
   palette:
+    # Light and dark theme with toggle, based on the MkDocs Material
+    # documentation:
+    #   https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
