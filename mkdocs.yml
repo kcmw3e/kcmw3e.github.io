@@ -43,3 +43,8 @@ markdown_extensions:
       # Link to some setup documentation for the table of contents:
       #   https://mrkeo.github.io/setup/setting-up-navigation/#table-of-contents
       permalink: true
+
+      # Link to some slug creation documentation:
+      #   https://facelessuser.github.io/pymdown-extensions/about/releases/9.0/#one-slugify-to-rule-them-all
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+               {kwds: {case: lower}}
