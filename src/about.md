@@ -24,7 +24,7 @@ I've used it to make [Resumania][resumania-gh] (a resume template) and my
 Whenever I find the inspiration and time, I like to write fiction in the form of
   short stories, a novella I've been working on since graduating from CMU, and a
   novel series I've had on the backburner since I was 15.
-Maybe someday I I'll be able able to share them.
+Maybe someday I'll be able able to share them.
 
 <!------------------------------------------------------------------------------
 Links
