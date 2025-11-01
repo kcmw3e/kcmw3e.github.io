@@ -1,0 +1,50 @@
+docs_dir: src/
+site_dir: build/
+
+# Guidance taken from:
+#   https://towardsdatascience.com/full-guide-to-build-a-professionnal-portfolio-with-python-markdown-git-and-github-page-for-66d12f7859f0/
+
+site_name: Casey Walker
+site_url: https://kcmw3e.com
+site_author: Casey Walker
+site_description: >-
+  This is the profile portfolio for Casey Walker, a human being.
+
+repo_name: kcmw3e
+repo_url: https://github.com/kcmw3e/
+
+theme:
+  name: material
+  features:
+    # Link to some setup documentation for these features:
+    #   https://mrkeo.github.io/setup/setting-up-navigation/
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+  palette:
+    # Light and dark theme with toggle, based on the MkDocs Material
+    # documentation:
+    #   https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+markdown_extensions:
+  - toc:
+      # Link to some setup documentation for the table of contents:
+      #   https://mrkeo.github.io/setup/setting-up-navigation/#table-of-contents
+      permalink: true
+
+      # Link to some slug creation documentation:
+      #   https://facelessuser.github.io/pymdown-extensions/about/releases/9.0/#one-slugify-to-rule-them-all
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+               {kwds: {case: lower}}
