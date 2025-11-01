@@ -1,7 +1,7 @@
 # About Me
 
 Hello.
-I am Casey Walker, beep boop (but not really—I promise I'm real).
+I am Casey Walker.
 In one sentence: I graduated from Carnegie Mellon University with two degrees in
   mechanical engineering, I have a deep interest in software engineering, I love
   playing sports, and I'm on an endless quest to make *something* (careful
