@@ -10,8 +10,8 @@ site_author: Casey Walker
 site_description: >-
   This is the profile portfolio for Casey Walker, a human being.
 
-repo_name: kcmw3e/kcmw3e.github.io
-repo_url: https://github.com/kcmw3e/kcmw3e.github.io
+repo_name: kcmw3e
+repo_url: https://github.com/kcmw3e/
 
 theme:
   name: material
