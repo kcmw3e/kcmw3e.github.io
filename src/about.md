@@ -7,8 +7,8 @@ In one sentence: I graduated from Carnegie Mellon University with two degrees in
   playing sports, and I'm on an endless quest to make *something* (careful
   asking me what because it changes all the time).
 
-I enjoy bouldering and staying active through various sports (whatever I can get
-  someone else to play with me).
+I enjoy bouldering, slacklining, and staying active through various sports
+  (whatever I can get someone else to play with me).
 I've been learning Japanese for about a year now.
 (Progress is slow, but progress is progress!)
 I enjoy programming, and frequently catch myself wandering down random rabbit
