@@ -40,4 +40,3 @@ Links
 [typst-gh]:
   https://github.com/typst/typst
   "Typst on GitHub"
-
