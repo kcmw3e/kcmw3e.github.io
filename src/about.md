@@ -12,7 +12,7 @@ I enjoy bouldering, slacklining, and staying active through various sports
 I've been learning Japanese for about a year now.
 (Progress is slow, but progress is progress!)
 I enjoy programming, and frequently catch myself wandering down random rabbit
-  holes ...
+  holes...
 
 My favorite programming language is currently Rust, but someday I want to give
   Zig a real try.
