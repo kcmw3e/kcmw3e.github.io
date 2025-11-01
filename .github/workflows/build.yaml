@@ -55,3 +55,11 @@ jobs:
       - name: Build with MkDocs
         run: |
           mkdocs build
+
+      # Steps based on:
+      #   https://github.com/actions/upload-pages-artifact
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/
