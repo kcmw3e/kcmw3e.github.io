@@ -1,0 +1,78 @@
+name: build-website-action
+
+on:
+  push:
+    branches: [ "trunk" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Based on:
+    #   https://generalreasoning.com/blog/cicd/python/software/2025/02/18/github-actions-caching-pipx.html
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        id: python-setup
+      - name: Set up pipx
+        id: pipx-setup
+        run: |
+          cache_home_dir="$HOME/.local/pipx"
+          cache_bin_dir="$HOME/.local/pipx_bin"
+
+          printf 'cache-home-dir=%s\n' $cache_home_dir >> $GITHUB_OUTPUT
+          printf 'cache-bin-dir=%s\n' $cache_bin_dir >> $GITHUB_OUTPUT
+          printf 'version=%s\n' $(pipx --version) >> $GITHUB_OUTPUT
+
+          printf '%s\n' $cache_bin_dir >> $GITHUB_PATH
+      - name: Cache for pipx
+        id: cache-pipx
+        uses: actions/cache@v3
+        with:
+          path: |
+            ${{ steps.setup-pipx.outputs.cache-home-dir }}
+            ${{ steps.setup-pipx.outputs.cache-bin-dir }}
+
+          # In short the key is
+          #   "pipx-<version>-<python-version>-<hash-of-this-file>"
+          # so that the cache is invalidated any time the pipx version changes,
+          # the python version changes, or this workflow changes itself changes.
+          key: "pipx\
+            -${{ steps.pipx-setup.outputs.version }}\
+            -${{ steps.python-setup.outputs.python-version }}\
+            -${{ hashFiles('.github/workflows/build.yaml') }}\
+            "
+      - name: Install pipx dependencies
+        # Only run if the cache is invalid
+        if: ${{ steps.cache-pipx.outputs.cache-hit != 'true' }}
+        env:
+          PIPX_HOME: ${{ steps.pipx-setup.outputs.cache-home-dir }}
+          PIPX_BIN_DIR: ${{ steps.pipx-setup.outputs.cache-bin-dir }}
+          PIPX_DEFAULT_PYTHON: ${{ steps.python-setup.outputs.python-path }}
+        run: |
+          pipx install mkdocs
+          pipx inject mkdocs mkdocs-material
+      - name: Build with MkDocs
+        run: |
+          mkdocs build
+
+      # Steps based on:
+      #   https://github.com/actions/upload-pages-artifact
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/
+
+    # Job based on:
+    #   https://github.com/actions/upload-pages-artifact
+    deploy:
+      environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
+      runs-on: ubuntu-latest
+      needs: build
+      steps:
+        - name: Deploy to GitHub Pages
+          id: deployment
+          uses: actions/deploy-pages@v4
