@@ -18,6 +18,14 @@ Unfortunately, it only has a web interface and no mobile app, but it's still
 It's interface isn't as good as Takoboto is in my opinion, but it does have a
   nice feature where it breaks sentences down and shows what function each word
   serves in the sentence (along with furigana).
+
+There's also a case to be made for mentioning [Renshuu][renshuu] here.
+It's way more than just a dictionary, but it does have an interface for looking
+  up words and sentences.
+Rebshuu's dictionary also has drawing support, and from my experience it does
+  the best job of all the dictionaries I've tried at recognizing my very rough
+  drawings of kanji.
+
 <!------------------------------------------------------------------------------
 These are all the links used in this page.
 
@@ -28,6 +36,10 @@ NOTE: The list is kept in alphabetical order, so add new links in the
 [jisho]:
   https://jisho.org/
   "Jisho"
+
+[renshuu]:
+  https://www.renshuu.org/
+  "Renshuu"
 
 [takoboto]:
   https://takoboto.jp
