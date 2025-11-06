@@ -11,6 +11,7 @@ The main dictionary I use is [Takoboto][takoboto].
 It has mobile apps and a good web interface, it lets you input whole sentences
   and will break them apart, and it shows the stroke order for every kanji in a
   word (if you're trying to learn to write, that's extremely helpful).
+Do note that, while Takoboto has drawing support, it's locked behind a paywall.
 
 Another great dictionary option is [Jisho.org][jisho].
 Unfortunately, it only has a web interface and no mobile app, but it's still
@@ -18,6 +19,7 @@ Unfortunately, it only has a web interface and no mobile app, but it's still
 It's interface isn't as good as Takoboto is in my opinion, but it does have a
   nice feature where it breaks sentences down and shows what function each word
   serves in the sentence (along with furigana).
+Jisho also comes with drawing support and radical searching.
 
 There's also a case to be made for mentioning [Renshuu][renshuu] here.
 It's way more than just a dictionary, but it does have an interface for looking
