@@ -28,6 +28,13 @@ Rebshuu's dictionary also has drawing support, and from my experience it does
   the best job of all the dictionaries I've tried at recognizing my very rough
   drawings of kanji.
 
+### Offline dictionaries
+
+I have [Kiten][kiten] installed on my PC, but it's not quite as useful as
+  Takoboto in my opinion—mostly because it doesn't allow entering whole
+  sentences and breaking it up for you.
+It also doesn't perform as well for searching English words.
+
 ## Spaced Repetition and Quizzing
 
 There is a really awesome website (and app) called <a id="renshuu">
@@ -49,6 +56,10 @@ NOTE: The list is kept in alphabetical order, so add new links in the
 [jisho]:
   https://jisho.org/
   "Jisho"
+
+[kiten]:
+  https://apps.kde.org/kiten/
+  "Kiten"
 
 [renshuu]:
   https://www.renshuu.org/
