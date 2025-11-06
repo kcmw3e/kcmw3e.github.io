@@ -28,6 +28,16 @@ Rebshuu's dictionary also has drawing support, and from my experience it does
   the best job of all the dictionaries I've tried at recognizing my very rough
   drawings of kanji.
 
+## Spaced Repetition and Quizzing
+
+There is a really awesome website (and app) called [Renshuu][renshuu].
+It has grammar lessons, custom vocabulary lists, games, a community, among other
+  things.
+Thus far, I have only really used it for grammar lessons and vocabulary lists,
+  but there is a pretty vibrant community around for all of the other stuff.
+It will handle scheduling quizzes for you using spaced repetition and how well
+  you know words.
+
 <!------------------------------------------------------------------------------
 These are all the links used in this page.
 
