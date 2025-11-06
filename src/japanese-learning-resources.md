@@ -22,15 +22,16 @@ It's interface isn't as good as Takoboto is in my opinion, but it does have a
 Jisho also comes with drawing support and radical searching.
 
 There's also a case to be made for mentioning [Renshuu][renshuu] here.
-It's way more than just a dictionary, but it does have an interface for looking
-  up words and sentences.
+It's way more than just a dictionary (see [below](#renshuu)), but it does have
+  an interface for looking up words and sentences.
 Rebshuu's dictionary also has drawing support, and from my experience it does
   the best job of all the dictionaries I've tried at recognizing my very rough
   drawings of kanji.
 
 ## Spaced Repetition and Quizzing
 
-There is a really awesome website (and app) called [Renshuu][renshuu].
+There is a really awesome website (and app) called <a id="renshuu">
+  [Renshuu][renshuu].
 It has grammar lessons, custom vocabulary lists, games, a community, among other
   things.
 Thus far, I have only really used it for grammar lessons and vocabulary lists,
