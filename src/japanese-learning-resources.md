@@ -83,6 +83,25 @@ Unfortunately, they don't make new podcasts very often (and it seems like
 Plus, on their website they have a really cool game called
   [Kana Invaders][kana-invaders].
 
+### YouTube Channels
+
+There are a few youtube channels I watch occasionally.
+Not all of them exclusively cover language, but most of them have at least a few
+  videos on language.
+
+[NhongoDekita with Sayaka][yt-nihongo-dekita] has a few language videos, and
+  importantly some listening-practice videos.
+There are some other fun videos as well about Japanese culture and scenarios.
+
+[Emiri's Tokyo Life][yt-emiri] has a little bit of a mix with what topics are
+  covered, from Japanese culture and life to some language-focused videos.
+
+[Mochi real Japanese][yt-mochi] has quite a few listening practice videos, and
+  a few about random language topics.
+
+[Speak Japanese Naturally][yt-speak-ja-naturally] mostly seems to be focused on
+  listening practice, but also has some other random language topic coverage.
+
 <!------------------------------------------------------------------------------
 These are all the links used in this page.
 
@@ -129,3 +148,19 @@ NOTE: The list is kept in alphabetical order, so add new links in the
 [tofugu-katakana]:
   https://www.tofugu.com/japanese/learn-katakana/
   "Tofugu Katakana"
+
+[yt-emiri]:
+  https://www.youtube.com/@YourJapaneseFriendEmiri
+  "Emiri's Tokyo Life on YouTube"
+
+[yt-mochi]:
+  https://www.youtube.com/@mochirealjapanese3430
+  "Mochi real Japanese on YouTube"
+
+[yt-nihongo-dekita]:
+  https://www.youtube.com/@NihongoDekita
+  "NihongoDekita with Sayaka on YouTube"
+
+[yt-speak-ja-naturally]:
+  https://www.youtube.com/@SpeakJapaneseNaturally
+  "Speak Japanese Naturally on YouTube"
