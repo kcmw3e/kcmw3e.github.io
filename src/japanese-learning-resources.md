@@ -56,7 +56,7 @@ For both sets of characters, it provides really useful mnemonics to help with
 ## Podcasts and Videos/Channels
 
 I have tried a few podcasts, and the one that stuck most with me is [Learn
-  Japanese Pod][learn-japanese-pod].
+  Japanese Pod][ljp].
 Unfortunately, they don't make new podcasts very often (and it seems like
   they're slowing down), but there's a backlog that's worth listening to.
 Plus, on their website they have a really cool game called
@@ -81,7 +81,7 @@ NOTE: The list is kept in alphabetical order, so add new links in the
   https://apps.kde.org/kiten/
   "Kiten"
 
-[learn-japanese-pod]:
+[ljp]:
   https://learnjapanesepod.com/
   "Learn Japanese Pod"
 
