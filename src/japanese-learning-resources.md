@@ -53,6 +53,15 @@ For learning [hiragana][tofugu-hiragana] and [katakana][tofugu-katakana], I used
 For both sets of characters, it provides really useful mnemonics to help with
   remembering kana visually, and there are [quizzes][tofugu-kana-quiz].
 
+## Podcasts and Videos/Channels
+
+I have tried a few podcasts, and the one that stuck most with me is [Learn
+  Japanese Pod][learn-japanese-pod].
+Unfortunately, they don't make new podcasts very often (and it seems like
+  they're slowing down), but there's a backlog that's worth listening to.
+Plus, on their website they have a really cool game called
+  [Kana Invaders][kana-invaders].
+
 <!------------------------------------------------------------------------------
 These are all the links used in this page.
 
@@ -64,9 +73,17 @@ NOTE: The list is kept in alphabetical order, so add new links in the
   https://jisho.org/
   "Jisho"
 
+[kana-invaders]:
+  https://www.learnjapanesepod.com/kana-invaders/
+  "Kana Invaders"
+
 [kiten]:
   https://apps.kde.org/kiten/
   "Kiten"
+
+[learn-japanese-pod]:
+  https://learnjapanesepod.com/
+  "Learn Japanese Pod"
 
 [renshuu]:
   https://www.renshuu.org/
