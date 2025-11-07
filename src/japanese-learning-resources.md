@@ -46,6 +46,13 @@ Thus far, I have only really used it for grammar lessons and vocabulary lists,
 It will handle scheduling quizzes for you using spaced repetition and how well
   you know words.
 
+## Hiragana and Katakana
+
+For learning [hiragana][tofugu-hiragana] and [katakana][tofugu-katakana], I used
+  the awesome website [Tofugu][tofugu].
+For both sets of characters, it provides really useful mnemonics to help with
+  remembering kana visually, and there are [quizzes][tofugu-kana-quiz].
+
 <!------------------------------------------------------------------------------
 These are all the links used in this page.
 
@@ -68,3 +75,19 @@ NOTE: The list is kept in alphabetical order, so add new links in the
 [takoboto]:
   https://takoboto.jp
   "Takoboto"
+
+[tofugu]:
+  https://www.tofugu.com/japanese/
+  "Tofugu"
+
+[tofugu-hiragana]:
+  https://www.tofugu.com/japanese/learn-hiragana/
+  "Tofugu Hiragana"
+
+[tofugu-kana-quiz]:
+  https://kana-quiz.tofugu.com/
+  "Tofugu Kana Quiz"
+
+[tofugu-katakana]:
+  https://www.tofugu.com/japanese/learn-katakana/
+  "Tofugu Katakana"
