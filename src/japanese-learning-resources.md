@@ -5,19 +5,26 @@ This is a list of resources for learning Japanese that I have used (or at least
 There are of course many more, but this is just about everything I've come
   across since I started my foray into learning Japanese.
 
+So far, I have completely avoided paying for anything except [books](#books) and
+  a [video game](#games).
+That's not to say other things aren't worth purchasing, just that these are the
+  only things _I_ have found worth purchasing so far.
+
 ## Flat list
 
 For the lazy, here is just a straight-up list of everything with links (in no
   particular order).
 
-| Resource                       | Short                                  |
-|--------------------------------|----------------------------------------|
-| [Takoboto][takoboto]           | Web dictionary (and mobile app)        |
-| [Jisho][jisho]                 | Web dictionary                         |
-| [Renshuu][renshuu]             | Learning community (website + app)     |
-| [Tofugu][tofugu]               | Website dedicated to Japanese learning |
-| [Learn Japanese Pod][ljp]      | Podcast                                |
-| [Kana Invaders][kana-invaders] | Game for learning kana                 |
+| Resource                           | Short                                  |
+|------------------------------------|----------------------------------------|
+| [Takoboto][takoboto]               | Web dictionary (and mobile app)        |
+| [Jisho][jisho]                     | Web dictionary                         |
+| [Renshuu][renshuu]                 | Learning community (website + app)     |
+| [Tofugu][tofugu]                   | Website dedicated to Japanese learning |
+| [Tofugu hiragana][tofugu-hiragana] | Tofugu's page for learning hiragana    |
+| [Tofugu katakana][tofugu-katakana] | Tofugu's page for learning katakana    |
+| [Learn Japanese Pod][ljp]          | Podcast                                |
+| [Kana Invaders][kana-invaders]     | Game for learning kana                 |
 
 ## Dictionaries
 
