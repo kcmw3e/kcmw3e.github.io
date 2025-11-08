@@ -28,6 +28,7 @@ For the lazy, here is just a straight-up list of everything with links (in no
 | [Tofugu katakana][tofugu-katakana] | Tofugu's page for learning katakana    |
 | [Learn Japanese Pod][ljp]          | Podcast                                |
 | [Kana Invaders][kana-invaders]     | Game for learning kana                 |
+| [Shashingo][shashingo]             | Game where you take pictures of things |
 
 ## Dictionaries
 
@@ -118,6 +119,14 @@ For something a little more goofy, there's [Real Real Japan][yt-rrj].
 It's not focused much on the actual language learning aspect as much as the
   goofy language quirks of Japanese.
 
+## Games
+
+There is a game called [Shashingo][shashingo] that I really like.
+The whole point of the game is to run around a small city block and take
+  pictures of things (hence the "Shashin" in "Shashingo"), and collect words.
+There's also a mode where you get quizzed: a word is given to you and you have
+  to go find it and take a picture of it in the world.
+
 <!------------------------------------------------------------------------------
 These are all the links used in this page.
 
@@ -148,6 +157,10 @@ NOTE: The list is kept in alphabetical order, so add new links in the
 [renshuu]:
   https://www.renshuu.org/
   "Renshuu"
+
+[shashingo]:
+  https://github.com/actions/deploy-pages
+  "Shashingo"
 
 [takoboto]:
   https://takoboto.jp
