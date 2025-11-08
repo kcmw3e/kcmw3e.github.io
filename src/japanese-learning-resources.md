@@ -19,6 +19,7 @@ For the lazy, here is just a straight-up list of everything with links (in no
 |------------------------------------|----------------------------------------|
 | [Takoboto][takoboto]               | Web dictionary (and mobile app)        |
 | [Jisho][jisho]                     | Web dictionary                         |
+| [Kiten][kiten]                     | Desktop app (a KDE app)                |
 | [Renshuu][renshuu]                 | Learning community (website + app)     |
 | [Anki][anki]                       | Flashcards/spaced repetition app       |
 | [Tofugu][tofugu]                   | Website dedicated to Japanese learning |
