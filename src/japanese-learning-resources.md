@@ -23,6 +23,7 @@ For the lazy, here is just a straight-up list of everything with links (in no
 | [Renshuu][renshuu]                 | Learning community (website + app)     |
 | [Anki][anki]                       | Flashcards/spaced repetition app       |
 | [Tofugu][tofugu]                   | Website dedicated to Japanese learning |
+| [WaniKani][wanikani]               | Website for learning kanji/vocabulary  |
 | [Tofugu hiragana][tofugu-hiragana] | Tofugu's page for learning hiragana    |
 | [Tofugu katakana][tofugu-katakana] | Tofugu's page for learning katakana    |
 | [Learn Japanese Pod][ljp]          | Podcast                                |
@@ -68,6 +69,11 @@ Thus far, I have only really used it for grammar lessons and vocabulary lists,
   but there is a pretty vibrant community around for all of the other stuff.
 It will handle scheduling quizzes for you using spaced repetition and how well
   you know words.
+
+There's a website called [WaniKani][wanikani] (run by the same people behind
+  [Tofugu][tofugu-wanikani]) which helps with learning to read kanji and words.
+Just like with [hiragana and katakana](#hiragana-and-katakana), they provide
+  mnemonics to help visually remember things.
 
 There are a lot of people out there that swear by [Anki][anki].
 Personally, I tried it for a little bit but didn't find it as helpful as Renshuu
@@ -162,6 +168,14 @@ NOTE: The list is kept in alphabetical order, so add new links in the
 [tofugu-katakana]:
   https://www.tofugu.com/japanese/learn-katakana/
   "Tofugu Katakana"
+
+[tofugu-wanikani]:
+  https://www.tofugu.com/japanese-learning-resources-database/wanikani/
+  "Tofugu page on WaniKani"
+
+[wanikani]:
+  https://www.wanikani.com/
+  "WaniKani"
 
 [yt-emiri]:
   https://www.youtube.com/@YourJapaneseFriendEmiri
