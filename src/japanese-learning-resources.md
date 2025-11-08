@@ -29,6 +29,7 @@ For the lazy, here is just a straight-up list of everything with links (in no
 | [Learn Japanese Pod][ljp]          | Podcast                                |
 | [Kana Invaders][kana-invaders]     | Game for learning kana                 |
 | [Shashingo][shashingo]             | Game where you take pictures of things |
+| [NHK News Web Easy][nhk-easy]      | Japanese news website with furigana    |
 
 ## Dictionaries
 
@@ -86,6 +87,18 @@ For learning [hiragana][tofugu-hiragana] and [katakana][tofugu-katakana], I used
   the awesome website [Tofugu][tofugu].
 For both sets of characters, it provides really useful mnemonics to help with
   remembering kana visually, and there are [quizzes][tofugu-kana-quiz].
+
+## News
+
+One of the most helpful things I've found to do is read news.
+There are a lot of common words used in news articles, so I typically use them
+  as a way to both learn and review words and phrases, and it's a good way to
+  get exposure to different grammar structures.
+
+I would recommend [NHK News Web Easy][nhk-easy].
+It's a real Japanese news company, and the website is fairly simple and doesn't
+  spam you with advertizements.
+It has a furigana toggle so you can practice reading kanji alone.
 
 ## Podcasts and Videos/Channels
 
@@ -153,6 +166,10 @@ NOTE: The list is kept in alphabetical order, so add new links in the
 [ljp]:
   https://learnjapanesepod.com/
   "Learn Japanese Pod"
+
+[nhk-easy]:
+  https://news.web.nhk/news/easy/
+  "NHK News Web Easy"
 
 [renshuu]:
   https://www.renshuu.org/
