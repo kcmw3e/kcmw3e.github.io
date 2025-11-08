@@ -108,6 +108,10 @@ There are some other fun videos as well about Japanese culture and scenarios.
 [Speak Japanese Naturally][yt-speak-ja-naturally] mostly seems to be focused on
   listening practice, but also has some other random language topic coverage.
 
+For something a little more goofy, there's [Real Real Japan][yt-rrj].
+It's not focused much on the actual language learning aspect as much as the
+  goofy language quirks of Japanese.
+
 <!------------------------------------------------------------------------------
 These are all the links used in this page.
 
@@ -170,6 +174,10 @@ NOTE: The list is kept in alphabetical order, so add new links in the
 [yt-nihongo-dekita]:
   https://www.youtube.com/@NihongoDekita
   "NihongoDekita with Sayaka on YouTube"
+
+[yt-rrj]:
+  https://www.youtube.com/@RealRealJapan
+  "Real Real Japan on YouTube"
 
 [yt-speak-ja-naturally]:
   https://www.youtube.com/@SpeakJapaneseNaturally
