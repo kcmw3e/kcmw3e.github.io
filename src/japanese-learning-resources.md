@@ -20,6 +20,7 @@ For the lazy, here is just a straight-up list of everything with links (in no
 | [Takoboto][takoboto]               | Web dictionary (and mobile app)        |
 | [Jisho][jisho]                     | Web dictionary                         |
 | [Renshuu][renshuu]                 | Learning community (website + app)     |
+| [Anki][anki]                       | Flashcards/spaced repetition app       |
 | [Tofugu][tofugu]                   | Website dedicated to Japanese learning |
 | [Tofugu hiragana][tofugu-hiragana] | Tofugu's page for learning hiragana    |
 | [Tofugu katakana][tofugu-katakana] | Tofugu's page for learning katakana    |
@@ -67,6 +68,10 @@ Thus far, I have only really used it for grammar lessons and vocabulary lists,
 It will handle scheduling quizzes for you using spaced repetition and how well
   you know words.
 
+There are a lot of people out there that swear by [Anki][anki].
+Personally, I tried it for a little bit but didn't find it as helpful as Renshuu
+  or just making my own flashcards.
+
 ## Hiragana and Katakana
 
 For learning [hiragana][tofugu-hiragana] and [katakana][tofugu-katakana], I used
@@ -108,6 +113,10 @@ These are all the links used in this page.
 NOTE: The list is kept in alphabetical order, so add new links in the
       appropriate location!
 ------------------------------------------------------------------------------->
+
+[anki]:
+  https://apps.ankiweb.net/
+  "Anki"
 
 [jisho]:
   https://jisho.org/
