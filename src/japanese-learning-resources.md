@@ -100,6 +100,18 @@ It's a real Japanese news company, and the website is fairly simple and doesn't
   spam you with advertizements.
 It has a furigana toggle so you can practice reading kanji alone.
 
+## Books
+
+There are a few books I've been reading.
+Mostly, I have gotten books that are "parallel texts", meaning they provide both
+  a Japanese version and an English version.
+
+### Parallel Texts
+| Title                                      | Author     | ISBN-13       |
+|--------------------------------------------|------------|---------------|
+| *Great Japanese Stories*                   | Jay Rubin  | 9780241634479 |
+| *Japanese Folktales for Language Learners* | 佐藤恵理子 | 9784805316627 |
+
 ## Podcasts and Videos/Channels
 
 I have tried a few podcasts, and the one that stuck most with me is [Learn
