@@ -22,6 +22,7 @@ html-viewer := env('HTML_VIEWER', 'qutebrowser')
 #   into HTML instead of using the base name as the directory and adding an
 #   'index.html' inside of it.
 mkdocs-build-args := '-s --no-directory-urls'
+mkdocs-serve-args := '--clean --livereload'
 
 build: make-build-dir
     #!/usr/bin/env fish
@@ -29,7 +30,7 @@ build: make-build-dir
 
 serve: build
     #!/usr/bin/env fish
-    mkdocs serve {{mkdocs-build-args}}
+    mkdocs serve {{mkdocs-build-args}} {{mkdocs-serve-args}}
 
 clean:
     rm -r {{build-dir}}
