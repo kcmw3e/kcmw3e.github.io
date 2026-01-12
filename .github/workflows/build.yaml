@@ -54,6 +54,7 @@ jobs:
           pipx inject mkdocs mkdocs-material
       - name: Build with MkDocs
         run: |
+          # Note that the build destination is stored in the MkDocs config.
           mkdocs build
 
       # Steps based on:
