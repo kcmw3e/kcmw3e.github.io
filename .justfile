@@ -28,9 +28,14 @@ build: make-build-dir
     #!/usr/bin/env fish
     mkdocs build {{mkdocs-build-args}}
 
-serve: build
+serve in-bg='false': build
     #!/usr/bin/env fish
-    mkdocs serve {{mkdocs-build-args}} {{mkdocs-serve-args}}
+
+    if [ '{{in-bg}}' = 'true' ]
+        mkdocs serve {{mkdocs-build-args}} {{mkdocs-serve-args}} &>/dev/null &
+    else
+        mkdocs serve {{mkdocs-build-args}} {{mkdocs-serve-args}}
+    end
 
 clean:
     rm -r {{build-dir}}
