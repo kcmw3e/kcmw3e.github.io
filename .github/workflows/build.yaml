@@ -36,7 +36,7 @@ jobs:
           # In short the key is
           #   "pipx-<version>-<python-version>-<hash-of-this-file>"
           # so that the cache is invalidated any time the pipx version changes,
-          # the python version changes, or this workflow changes itself changes.
+          # the python version changes, or this workflow itself changes.
           key: "pipx\
             -${{ steps.pipx-setup.outputs.version }}\
             -${{ steps.python-setup.outputs.python-version }}\
