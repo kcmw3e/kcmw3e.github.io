@@ -1,5 +1,9 @@
 This is my personal website. I am Casey Walker.
 
+Below are build instructions *for anyone who wants to make something similar*
+  (and for future me).
+If you aren't me, please do not build and host this anywhere.
+
 To build, both MkDocs and MkDocs Material are needed.
 
 If using `pipx` for installing Python programs:
