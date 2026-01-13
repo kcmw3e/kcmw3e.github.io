@@ -53,6 +53,18 @@ markdown_extensions:
                {kwds: {case: lower}}
 
 plugins:
+  - i18n:
+      docs_structure: suffix
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ja
+          name: 日本語
+          build: true
   #   https://squidfunk.github.io/mkdocs-material/plugins/search/#search
   - search:
       lang:
