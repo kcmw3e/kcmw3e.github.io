@@ -52,6 +52,13 @@ markdown_extensions:
       slugify: !!python/object/apply:pymdownx.slugs.slugify
                {kwds: {case: lower}}
 
+plugins:
+  #   https://squidfunk.github.io/mkdocs-material/plugins/search/#search
+  - search:
+      lang:
+        - en
+        - ja
+
 # For adding translations/language selector, based on the MkDocs Material
 # documentation:
 #   https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language-selector
