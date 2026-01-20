@@ -65,6 +65,7 @@ plugins:
         - locale: ja
           name: 日本語
           build: true
+  # Based on the MkDocs Material documentation:
   #   https://squidfunk.github.io/mkdocs-material/plugins/search/#search
   - search:
       lang:
