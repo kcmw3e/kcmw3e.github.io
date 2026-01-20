@@ -51,3 +51,35 @@ markdown_extensions:
       #   https://facelessuser.github.io/pymdown-extensions/about/releases/9.0/#one-slugify-to-rule-them-all
       slugify: !!python/object/apply:pymdownx.slugs.slugify
                {kwds: {case: lower}}
+
+plugins:
+  - i18n:
+      docs_structure: suffix
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ja
+          name: 日本語
+          build: true
+  # Based on the MkDocs Material documentation:
+  #   https://squidfunk.github.io/mkdocs-material/plugins/search/#search
+  - search:
+      lang:
+        - en
+        - ja
+
+# For adding translations/language selector, based on the MkDocs Material
+# documentation:
+#   https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language-selector
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: 日本語
+      link: /ja/
+      lang: ja

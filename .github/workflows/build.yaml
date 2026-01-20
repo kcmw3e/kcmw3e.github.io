@@ -52,6 +52,7 @@ jobs:
         run: |
           pipx install mkdocs
           pipx inject mkdocs mkdocs-material
+          pipx inject mkdocs mkdocs-static-i18n[material]
       - name: Build with MkDocs
         run: |
           # Note that the build destination is stored in the MkDocs config.
