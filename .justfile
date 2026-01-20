@@ -21,7 +21,7 @@ html-viewer := env('HTML_VIEWER', 'qutebrowser')
 # - `--no-directory-urls` forces the markdown files to be directly translated
 #   into HTML instead of using the base name as the directory and adding an
 #   'index.html' inside of it.
-mkdocs-build-args := '-s --no-directory-urls'
+mkdocs-build-args := '--strict --no-directory-urls'
 mkdocs-serve-args := '--clean --livereload'
 
 build: make-build-dir
