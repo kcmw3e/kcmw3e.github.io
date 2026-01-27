@@ -11,6 +11,17 @@ Here are the projects I am actively working on:
 | [vup][vup-gh]                      | CLI tools for version synchronization  |
 | [Rollerbot][rollerbot-gh]          | A robot inspired by BB-8               |
 
+### Resumania
+
+Resumania is a Typst template that I wrote so that I could maintain my resume
+  easier.
+There are lots of other Resume templates on Typst Universe, but I wanted to have
+  something more script-focused rather than just a template.
+The idea behind Resumania is to basically make a modular resume and be able to
+  put a set of tailored resumes together that reuse a lot of the same base
+  stuff.
+Plus, I wanted to learn more about Typst.
+
 <!------------------------------------------------------------------------------
 Links
 
