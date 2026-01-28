@@ -37,6 +37,17 @@ There's a "non-production-ready" compilation option that will instead show the
   annotations and produce a list/summary of them, as well as give
   within-document links.
 
+### version-utils
+
+`version-utils` is a set of developer tools that are meant to help keep
+  software versions synchronized during development.
+Basically, it arose out of a desire to have a scriptable way to bump versions
+  across a project since there are often multiple places where a version number
+  for a project is stored/referenced.
+
+It's written in Rust, mostly because I enjoy Rust and want to get more practice
+  with it.
+
 <!------------------------------------------------------------------------------
 Links
 
