@@ -47,6 +47,10 @@ NOTE: The list is kept in alphabetical order, so add new links in the
   https://github.com/kcmw3e/resumania
   "Resumania on GitHub"
 
+[rollerbot-gh]:
+  https://github.com/kcmw3e/rollerbot
+  "Rollerbot on GitHub"
+
 [storyteller-gh]:
   https://github.com/kcmw3e/storyteller
   "Storyteller on GitHub"
