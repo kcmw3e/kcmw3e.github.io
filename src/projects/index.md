@@ -8,7 +8,7 @@ Here are the projects I am actively working on:
 |------------------------------------|----------------------------------------|
 | [Resumania][resumania-gh]          | Typst resume template/library          |
 | [Storyteller][storyteller-gh]      | Typst package to help writing stories  |
-| [vup][vup-gh]                      | CLI tools for version synchronization  |
+| [version-utils][version-utils-gh]  | CLI tools for version synchronization  |
 | [Rollerbot][rollerbot-gh]          | A robot inspired by BB-8               |
 
 ### Resumania
@@ -55,6 +55,6 @@ NOTE: The list is kept in alphabetical order, so add new links in the
   https://github.com/kcmw3e/storyteller
   "Storyteller on GitHub"
 
-[vup-gh]:
-  https://github.com/kcmw3e/vup
-  "vup on GitHub"
+[version-utils-gh]:
+  https://github.com/kcmw3e/version-utils
+  "version-utils on GitHub"
