@@ -22,6 +22,21 @@ The idea behind Resumania is to basically make a modular resume and be able to
   stuff.
 Plus, I wanted to learn more about Typst.
 
+### Storyteller
+
+Storyteller is another Typst project that I work on occasionally.
+It's geared toward making a more "fool-proof" writing workflow (writing as in
+  creative prose).
+The idea is to set up some primitive "annotations" that authors can use to
+  remind themselves of things to return to.
+
+It also has a safeguard against compiling a "production-ready" document with
+  outstanding references/unresolved marked sections (like things marked for
+  rework, incomplete sections, etc.).
+There's a "non-production-ready" compilation option that will instead show the
+  annotations and produce a list/summary of them, as well as give
+  within-document links.
+
 <!------------------------------------------------------------------------------
 Links
 
