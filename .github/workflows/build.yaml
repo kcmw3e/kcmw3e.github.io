@@ -30,8 +30,8 @@ jobs:
         uses: actions/cache@v3
         with:
           path: |
-            ${{ steps.setup-pipx.outputs.cache-home-dir }}
-            ${{ steps.setup-pipx.outputs.cache-bin-dir }}
+            ${{ steps.pipx-setup.outputs.cache-home-dir }}
+            ${{ steps.pipx-setup.outputs.cache-bin-dir }}
 
           # In short the key is
           #   "pipx-<version>-<python-version>-<hash-of-this-file>"
