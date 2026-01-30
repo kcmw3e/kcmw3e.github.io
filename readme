@@ -13,5 +13,6 @@ If using `pipx` for installing Python programs:
 Links:
   - MkDocs: https://github.com/mkdocs/mkdocs
   - MkDocs material: https://github.com/squidfunk/mkdocs-material
+  - MkDocs static i18n: https://github.com/ultrabug/mkdocs-static-i18n
 
 Then just run `just build`, and the website will be created in 'build/'.
