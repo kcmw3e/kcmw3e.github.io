@@ -4,11 +4,12 @@ Below are build instructions *for anyone who wants to make something similar*
   (and for future me).
 If you aren't me, please do not build and host this anywhere.
 
-To build, both MkDocs and MkDocs Material are needed.
+To build, MkDocs, MkDocs Material, and MkDocs static i18n are needed.
 
 If using `pipx` for installing Python programs:
   # pipx install mkdocs
   # pipx inject mkdocs mkdocs-material
+  # pipx inject mkdocs mkdocs-static-i18n[material]
 
 Links:
   - MkDocs: https://github.com/mkdocs/mkdocs
