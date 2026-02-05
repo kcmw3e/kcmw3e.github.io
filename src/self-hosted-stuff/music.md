@@ -85,6 +85,35 @@ I'm assuming (since I haven't investigated this much) that this has to do with
   around.
 That would at least explain what I have observed.
 
+The setup for tailscale is pretty easy (assuming Tailscale is already installed
+  on the server and client devices).
+It's a one-liner to open the server up to the rest of the Tailnet:
+
+```sh
+tailscale serve 4533
+```
+
+This will run in the foreground, but to get a persistent service to run (even
+  across reboots):
+
+```sh
+tailscale serve --bg --set-path /music 4533
+```
+
+There's also a cool way to set up paths instead of requiring ports using
+  `--set-path`.
+So for Navidrome I use
+
+```sh
+tailscale serve --bg --set-path /music 4533
+```
+
+This lets me access my Navidrome server from my phone using
+  `https://server-hostname.tailnet-name.ts.net/music` instead of
+  `https://server-hostname.tailnet-name.ts.net:4533`, which will be helpful for
+  when I set up more self-hosted services.
+
+
 <!------------------------------------------------------------------------------
 Links
 
