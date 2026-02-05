@@ -40,6 +40,48 @@ I'm trying out [Symfonium][symfonium] based on the many recommendations I saw on
   Reddit (though it does cost $5.99 after the free trial).
 I'm also looking at [Yuzic][yuzic-gh], which is FOSS.
 
+### Server setup
+
+I set up Navidrome using its [Docker][navidrome-docker-install] image, though I
+  use [Podman][podman] to run it instead of Docker.
+
+Since I'm on Fedora with SELinux enabled, I did have some issues that I didn't
+  realize I'd encounter—mostly having to do with SELinux labels.
+Basically, I just had to add a `Z` to the volume mounting options.
+
+This is the command I used to start the container with Podman:
+
+```sh
+  podman run -d \
+  --name navidrome \
+  -v /path/to/music:/music:ro,Z \
+  -v /path/to/data:/data:Z \
+  -e ND_DATADIR=/data \
+  -e ND_MUSICFOLDER=/music \
+  -p 4533:4533 \
+  deluan/navidrome:latest
+```
+
+Note the `,Z` for the `/music` volume.
+This one tripped me up at first because I wasn't sure how to format the options
+  after `:ro`.
+It's just `:ro,Z`—a comma-separated list of options (documentation
+  [here][podman-volume-mount-doc]).
+For writable mounts, just appending `:Z` after the container mount point
+  does the trick (since read-write is default).
+Another random note: it seems like Podman doesn't like trailing `/` characters
+  at the end of the directory paths (I had this at first and it kept failing).
+
+I have also had issues with putting music into the `/path/to/music` directory.
+Again, it seems to be related to SELinux labels.
+Basically, if I just `mv` a file into `/path/to/music`, it doesn't take on the
+  `container_file_t` label, but if I `cp` the file in it does.
+I'm assuming (since I haven't investigated this much) that this has to do with
+  how SELinux contexts are inherited—I'm guessing it's taken from the parent
+  directory on file creation by default, and doesn't change when files are moved
+  around.
+That would at least explain what I have observed.
+
 <!------------------------------------------------------------------------------
 Links
 
@@ -65,6 +107,18 @@ NOTE: The list is kept in alphabetical order, so add new links in the
 [navidrome]:
   https://www.navidrome.org/
   "Navidrome"
+
+[navidrome-docker-install]:
+  https://www.navidrome.org/docs/installation/docker/
+  "Navidrome Docker installation"
+
+[podman]:
+  https://podman.io/
+  "Podman"
+
+[podman-volume-mount-doc]:
+  https://docs.podman.io/en/latest/markdown/podman-run.1.html#volume-v-source-volume-host-dir-container-dir-options
+  "Podman documentation for volume mounting"
 
 [qobuz]:
   https://www.qobuz.com/us-en/discover
