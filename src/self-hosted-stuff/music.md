@@ -75,6 +75,39 @@ For writable mounts, just appending `:Z` after the container mount point
 Another random note: it seems like Podman doesn't like trailing `/` characters
   at the end of the directory paths (I had this at first and it kept failing).
 
+I also was able to set up a Podman Quadlet so that Navidrome automatically
+  starts up when I log in.
+I only set it up as a user service, but it should be doable as a root service as
+  well.
+The Quadlet configuration looks like below:
+
+```systemd
+# navidrome.container
+
+[Container]
+ContainerName=navidrome
+Image=docker.io/deluan/navidrome:latest
+AutoUpdate=registry
+NoNewPrivileges=true
+PublishPort=4533:4533
+Volume=/path/to/music:/music:ro,Z
+Volume=/path/to/data/:/data:Z
+Environment=ND_DATADIR=/data
+Environment=ND_MUSICFOLDER=/music
+
+[Service]
+Restart=always
+
+[Install]
+WantedBy=default.target
+```
+
+Then install it using the `podman`:
+
+```sh
+podman quadlet install navidrome.container -r
+```
+
 I have also had issues with putting music into the `/path/to/music` directory.
 Again, it seems to be related to SELinux labels.
 Basically, if I just `mv` a file into `/path/to/music`, it doesn't take on the
