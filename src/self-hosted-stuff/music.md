@@ -40,6 +40,9 @@ I'm trying out [Symfonium][symfonium] based on the many recommendations I saw on
   Reddit (though it does cost $5.99 after the free trial).
 I'm also looking at [Yuzic][yuzic-gh], which is FOSS.
 
+For streaming on my computer, instead of the built-in web page interface that
+  Navidrome considers, I'm trying out [Feishin][feishin-gh].
+
 ### Server setup
 
 I set up Navidrome using its [Docker][navidrome-docker-install] image, though I
@@ -91,6 +94,10 @@ NOTE: The list is kept in alphabetical order, so add new links in the
 [bandcamp]:
   https://bandcamp.com/
   "Bandcamp"
+
+[feishin-gh]:
+  https://github.com/jeffvli/feishin
+  "Feishin on GitHub"
 
 [jellyfin]:
   https://jellyfin.org/
