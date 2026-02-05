@@ -6,7 +6,7 @@ The simple answer for why I've gone down this road is "to not pay the big
   told myself to justify a hobby.
 So in other words, I set this up so I could spend more money buying music, more
   effort managing my music library, more time and money keeping my personal
-  infrastucture maintained, and limit my music library.
+  infrastructure maintained, and limit my music library.
 It's so worth it.
 
 All jokes aside, it's actually taught me a lot, about the music industry,
@@ -102,7 +102,7 @@ Restart=always
 WantedBy=default.target
 ```
 
-Then install it using the `podman`:
+Then install it using `podman`:
 
 ```sh
 podman quadlet install navidrome.container -r
