@@ -1,0 +1,7 @@
+[default]
+extend-ignore-re = [
+  # This stops the false-positives from the commandline example showing how to
+  # start the Navidrome container using Podman, which declares some environment
+  # variables using `-e ND_<something>`.
+  'ND_[A-Z]+=',
+]
