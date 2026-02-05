@@ -13,3 +13,31 @@ All jokes aside, it's actually taught me a lot, about the music industry,
   copyright, myself (in terms of what I value and what kind of music I really
   actually enjoy), networking, and containers (the software kind—i.e.
   Docker/Podman).
+
+## Where I'm buying music
+
+For a quick reference these are the current stores from which I buy my music:
+
+| Website                        |
+|--------------------------------|
+| [Bandcamp][bandcamp]           |
+| [Qobuz][qobuz]                 |
+| [Juno Download][juno-download] |
+
+<!------------------------------------------------------------------------------
+Links
+
+NOTE: The list is kept in alphabetical order, so add new links in the
+      appropriate location!
+------------------------------------------------------------------------------->
+[bandcamp]:
+  https://bandcamp.com/
+  "Bandcamp"
+
+[juno-download]:
+  https://www.junodownload.com/
+  "Juno Download
+
+[qobuz]:
+  https://www.qobuz.com/us-en/discover
+  "Qobuz"
