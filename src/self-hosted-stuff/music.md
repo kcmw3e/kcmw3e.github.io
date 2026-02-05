@@ -167,7 +167,7 @@ NOTE: The list is kept in alphabetical order, so add new links in the
 
 [juno-download]:
   https://www.junodownload.com/
-  "Juno Download
+  "Juno Download"
 
 [lms-gh]:
   https://github.com/epoupon/lms
