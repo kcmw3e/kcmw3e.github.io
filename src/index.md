@@ -12,6 +12,8 @@ If you're a fellow Japanese-language-learner like me, check out my page on
   learning](learning-japanese.md) so far.
 If you're looking for stuff I work on in my spare time (or have done in the
   past), check out my [projects](projects/) (or my [GitHub][kcmw3e-gh]).
+If you're looking for how I set up my self-hosting stuff, check out the
+  [self-hosting section](self-hosted-stuff/music.md).
 
 <!------------------------------------------------------------------------------
 Links
