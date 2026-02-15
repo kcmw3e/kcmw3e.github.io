@@ -27,7 +27,10 @@ Whenever I find the inspiration and time, I like to write fiction in the form of
 Maybe someday I'll be able able to share them.
 
 <!------------------------------------------------------------------------------
-Links
+These are all the links used in this page.
+
+NOTE: The list is kept in alphabetical order, so add new links in the
+      appropriate location!
 ------------------------------------------------------------------------------->
 [resumania-gh]:
   https://github.com/kcmw3e/resumania
